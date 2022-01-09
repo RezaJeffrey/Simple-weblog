@@ -1,0 +1,21 @@
+{% extends 'main.html' %}
+
+{% load static %}
+
+{% block statics %}
+    <link rel="stylesheet" href="{% static 'blog/css/style.css' %}">
+    
+{% endblock %}
+
+{% block content %}
+
+    <h4>{{ arts.title|title }}</h4><br>
+    <h2> {{ arts.body|safe }}</h2><hr/>
+    <small>{{ arts.publisher }}</small>
+    <small> {{ arts.published|date:"M. j, n, Y" }} </small>
+
+
+
+
+
+{% endblock %}
