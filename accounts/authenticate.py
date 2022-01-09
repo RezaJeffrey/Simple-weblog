@@ -1,7 +1,7 @@
 from django.contrib.auth.models import User
 
 # I didn't understand this part, Just copied it from Documentation.
-
+# purpose of this class is to let user login with email and username
 
 class EmailAuth:
 
