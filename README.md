@@ -1,2 +1,2 @@
 # Simple-Wblog
-here are my simple projects I've been created during my learning journey
+here are is simple project I've been created during my learning journey
